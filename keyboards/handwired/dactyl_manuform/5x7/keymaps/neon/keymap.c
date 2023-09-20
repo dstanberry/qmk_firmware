@@ -25,8 +25,8 @@
 
 // alpha mods
 #define GUI_SLSH RGUI_T(KC_SLSH)
-#define RA_J     RALT_T(KC_J)
-#define RC_SCLN  RCTL_T(KC_SCLN)
+#define RC_J     RCTL_T(KC_J)
+#define RA_SCLN  RALT_T(KC_SCLN)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 // Qwerty (Default)
@@ -54,7 +54,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // ├────────┼────────┼────────┼────────┼────────┼────────┼────────┤
       KC_END  ,KC_Y    ,KC_U    ,KC_I    ,KC_O    ,KC_P    ,KC_EQL  ,
   // ├────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-      KC_PGDN ,KC_H    ,RA_J    ,KC_K    ,KC_L    ,RC_SCLN ,KC_QUOT ,
+      KC_PGDN ,KC_H    ,RC_J    ,KC_K    ,KC_L    ,RA_SCLN ,KC_QUOT ,
   // └────────┼────────┼────────┼────────┼────────┼────────┼────────┤
                KC_N    ,KC_M    ,KC_COMM ,KC_DOT  ,GUI_SLSH,SC_RSPC ,
   //          └────────┴────────┼────────┼────────┼────────┼────────┤
