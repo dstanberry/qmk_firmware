@@ -24,6 +24,7 @@
 #define TAB_R    LCTL(KC_TAB)
 
 // alpha mods
+#define GUI_Z    LGUI_T(KC_Z)
 #define GUI_SLSH RGUI_T(KC_SLSH)
 #define RC_J     RCTL_T(KC_J)
 #define RA_SCLN  RALT_T(KC_SCLN)
@@ -38,7 +39,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┤
      KC_ESC  ,KC_A    ,KC_S    ,KC_D    ,KC_F    ,KC_G    ,KC_PGUP ,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┘
-     SC_LSPO ,KC_Z    ,KC_X    ,KC_C    ,KC_V    ,KC_B    ,
+     SC_LSPO ,GUI_Z   ,KC_X    ,KC_C    ,KC_V    ,KC_B    ,
   //├────────┼────────┼────────┼────────┼────────┴────────┘
      LC_LEFT ,KC_LGUI ,TAB_L   ,LCG_NOOP,
   //└────────┴────────┴────────┴────────┘┌────────┬────────┬────────┐
