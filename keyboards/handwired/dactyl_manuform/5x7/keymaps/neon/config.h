@@ -12,7 +12,7 @@
 
 // Holding a Mod Tap chord is registered as a hold if held longer than
 // TAPPING_TERM. Otherwise it will register each as a TAP.
-#define IGNORE_MOD_TAP_INTERRUPT
+// #define IGNORE_MOD_TAP_INTERRUPT
 
 // If you press a Mod Tap key, tap another key (press and release) and then
 // release the Mod Tap key, all within the tapping term, it will output the
