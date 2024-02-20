@@ -17,3 +17,7 @@
 
 // Activate Caps Word by pressing Left Shift + Right Shift
 #define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
+
+// Double tap reset button to enter bootloader
+#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET
+#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 500U
