@@ -2,8 +2,10 @@
 -r requirements.txt
 
 # Python development requirements
-nose2
 flake8
+keymap-drawer
+nose2
 pep8-naming
 pyflakes
+qmk
 yapf
